@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    font-family: "Varela Round", sans-serif;
+}
+body{
+    background-color: rgb(236, 214, 214);
+}
+header{
+
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(16, 123, 247);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(44, 60, 146);
+    cursor: pointer;
+    transition: 0.8s;
+}
