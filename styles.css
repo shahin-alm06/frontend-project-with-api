@@ -24,3 +24,39 @@ header{
     cursor: pointer;
     transition: 0.8s;
 }
+
+#highlights-section{
+    width: 70%;
+    margin: 50px auto;
+}
+
+#highlights-section > h2{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #803737;
+    margin-bottom: 25px;
+}
+
+#highlights-section > p{
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(100, 85, 85);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#buy-now-button{
+    display: flex;
+    justify-content: center;
+}
+
+#cover-image-section{
+    border: 2px solid olivedrab;
+    width: 70%;
+    margin: 50px auto;
+}
+
+#cover-image-section img{
+    width: 100%;
+}
