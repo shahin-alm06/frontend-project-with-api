@@ -181,3 +181,35 @@ header{
     animation:l4 1s infinite steps(10);
   }
   @keyframes l4 {to{transform: rotate(1turn)}}
+
+  footer{
+    background-color: #E4E0EC;
+    padding: 100px 100px;
+}
+#footer-head h1{
+    font-size: 40px;
+}
+#footer-head{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+} 
+#hline{
+    border-top: 1px solid rgb(140, 138, 138);
+}
+#footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
+  }
+#footer-nav> div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+#footer-nav div a {
+    text-decoration: none;
+    color: rgb(136, 126, 126);
+  }
