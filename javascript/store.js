@@ -1,8 +1,19 @@
 function handlesearch() {
+    loadingAnimationToggle(true);
     const searchElement = document.getElementById('search-input-field');
     const searchInputValue = searchElement.value;
     console.log(searchInputValue);
     loadPhone(searchInputValue);
+}
+
+function loadingAnimationToggle(isloading){
+    const loadingAnimation = document.getElementById('loader-animation');
+    if(isloading){
+        loadingAnimation.classList.remove('hidden');
+    }
+    else{
+        loadingAnimation.classList.add('hidden');
+    }
 }
 
 const loadPhone = async(searchText) => { 
@@ -36,4 +47,5 @@ const displayPhone = (data) => {
         `;
         cardContainer.appendChild(productCard);
     });
+    loadingAnimationToggle(false);
 };
