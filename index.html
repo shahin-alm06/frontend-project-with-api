@@ -35,10 +35,10 @@ src="https://kit.fontawesome.com/d6c10fe29e.js" crossorigin="anonymous">
             <div id="search-container">
                 <div id="search-bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search Your Phone">
+                    <input id="search-input-field" type="text" placeholder="Search Your Phone">
                 </div>
                 <div id="search-button">
-                    <button class="btn">Search</button>
+                    <button onclick="handlesearch()" class="btn">Search</button>
                 </div>
             </div>
 
@@ -137,5 +137,7 @@ src="https://kit.fontawesome.com/d6c10fe29e.js" crossorigin="anonymous">
             </div>
            </section>
     </main>
+
+    <script src="./javascript/store.js"></script>
 </body>
 </html>
